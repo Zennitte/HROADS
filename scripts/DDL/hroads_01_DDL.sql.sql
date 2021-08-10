@@ -35,6 +35,6 @@ idClasse TINYINT FOREIGN KEY REFERENCES classe(idClasse),
 nomePersonagem VARCHAR (50) NOT NULL,
 vidaMax VARCHAR (2000) NOT NULL,
 manaMax VARCHAR (1200) NOT NULL,
-dataCriacao CHAR (10) NOT NULL,
-dataAtualizacao CHAR (10) NOT NULL
+dataCriacao DATETIME NOT NULL,
+dataAtualizacao DATETIME NOT NULL
 );
